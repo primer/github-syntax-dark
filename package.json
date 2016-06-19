@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0",
+  "name": "github-syntax-dark",
+  "description": "The CSS dark syntax theme for GitHub",
+  "homepage": "https://github.com/primer/github-syntax-dark#readme",
+  "style": "lib/github-dark.css",
+  "main": "index.js",
+  "author": "GitHub Inc.",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/github-syntax-dark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-syntax-theme-generator/issues"
+  },
+  "scripts": {
+    "update": "cp node_modules/github-syntax-theme-generator/build/css/github-dark.* lib/.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "syntax",
+    "css",
+    "theme",
+    "highlight",
+    "code",
+    "dark"
+  ],
+  "devDependencies": {
+    "github-syntax-theme-generator": "^0.1.0"
+  }
+}
