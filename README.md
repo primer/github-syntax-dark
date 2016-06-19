@@ -17,7 +17,7 @@ $ npm install --save github-syntax-dark
 Somewhere in your styles import the syntax theme like this.
 
 ```css
-@import "github-syntax-dark/index.css";
+@import "github-syntax-dark/lib/github-dark.css";
 ```
 
 ## Build
