@@ -35,6 +35,6 @@
     "dark"
   ],
   "devDependencies": {
-    "github-syntax-theme-generator": "^0.3.2"
+    "github-syntax-theme-generator": "*"
   }
 }
